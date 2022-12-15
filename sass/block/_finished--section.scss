@@ -1,0 +1,102 @@
+.finished-title {
+    font-family: 'Mulish';
+    width: 227px;
+    height: 92px;
+    margin-left: 212px;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.site-finished {
+    display: flex;
+    margin-top: 192px;
+    gap: 93px;
+}
+
+.finished-paragraph {
+    font-family: 'Mulish';
+    width: 540px;
+    height: 80px;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.home-installation {
+    background-image: url(/img/Mask\ Group\ \(3\).png);
+    width: 982px;
+    height: 424px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 108px;
+    margin-top: 100px;
+}
+
+.home-title {
+    font-family: 'Mulish';
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-left: 570px;
+    padding-top: 48px;
+}
+
+.home-paragraph {
+    font-family: 'Mulish';
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-top: 8px;
+    margin-left: 682px;
+}
+
+.marketplace {
+    display: flex;
+}
+
+.marketplace-box {
+    background-image: url(/img/Mask\ Group\ \(2\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 422px;
+    height: 417px;
+    margin-left: 108px;
+    margin-top: 89px;
+}
+
+.marketplace-box__1 {
+    background-image: url(/img/Mask\ Group\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 422px;
+    height: 417px;
+    margin-left: 108px;
+    margin-top: 89px;
+}
+
+.offer-marketplace {
+    font-family: 'Mulish';
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+.offer-app {
+    font-family: 'Mulish';
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-top: 4px;
+    margin-left: 32px;
+}

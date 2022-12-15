@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  position: fixed;
+//   z-index: 1;
+  gap: 900px;
+  height: 80px;
+  width: 1200px;
+  background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12.5px);
+}
+
+.site-header {
+    margin-top: 30px;
+    margin-left: 82px;
+}
+
+.hamburger {
+    margin-top: 30px;
+}

@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish";
+}
+
+body {
+  background: #E5E5E5;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  gap: 900px;
+  height: 80px;
+  width: 1200px;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+}
+
+.site-header {
+  margin-top: 30px;
+  margin-left: 82px;
+}
+
+.hamburger {
+  margin-top: 30px;
+}
+
+.site--main-section {
+  display: flex;
+  height: 700px;
+  background: linear-gradient(0deg, #e7eff7 0.09%, rgba(255, 255, 255, 0) 31%);
+}
+
+.automation-title {
+  font-size: 45px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  width: 480px;
+  height: 148px;
+  margin-top: 189px;
+  margin-left: 212px;
+}
+
+.automation-paragraph {
+  color: #1F3F68;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
+  width: 425px;
+  height: 82px;
+  margin-left: 212px;
+  margin-top: 32px;
+}
+
+.automation-project {
+  background: #5A98D0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  padding: 15px 40px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 212px;
+  margin-top: 71px;
+  display: inline-block;
+}
+
+.automation-img {
+  width: 530px;
+  height: 480px;
+  margin-top: 180px;
+  margin-left: -40px;
+}
+
+.famous-section {
+  display: flex;
+}
+
+.famous-title {
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #316099;
+  width: 338px;
+  height: 128px;
+  margin-left: 212px;
+  margin-top: 192px;
+}
+
+.help {
+  margin-top: 40px;
+  margin-left: 68px;
+}
+
+.help_2 {
+  margin-top: -15px;
+  margin-left: 74px;
+}
+
+.make-title {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  width: 257px;
+  height: 60px;
+  margin-left: 48px;
+  margin-top: 47px;
+}
+
+.famous-paragraph {
+  font-family: "Mulish";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  width: 284px;
+  height: 103px;
+  margin-left: 48px;
+  margin-top: 10px;
+}
+
+.learn-more {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5A98D0;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 48px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.famous--box_site {
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  width: 380px;
+  height: 480px;
+  margin-left: 260px;
+  margin-top: 158px;
+}
+
+.famous--box_site__2 {
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  width: 380px;
+  height: 480px;
+  margin-top: 192px;
+  margin-left: 100px;
+}
+
+.famous--box_site__3 {
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  width: 380px;
+  height: 480px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.forward-img {
+  margin-left: 135px;
+  margin-top: -25px;
+  display: block;
+}
+
+.finished-title {
+  font-family: "Mulish";
+  width: 227px;
+  height: 92px;
+  margin-left: 212px;
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+
+.site-finished {
+  display: flex;
+  margin-top: 192px;
+  gap: 93px;
+}
+
+.finished-paragraph {
+  font-family: "Mulish";
+  width: 540px;
+  height: 80px;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+
+.home-installation {
+  background-image: url(/img/Mask\ Group\ \(3\).png);
+  width: 982px;
+  height: 424px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 108px;
+  margin-top: 100px;
+}
+
+.home-title {
+  font-family: "Mulish";
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-left: 570px;
+  padding-top: 48px;
+}
+
+.home-paragraph {
+  font-family: "Mulish";
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-top: 8px;
+  margin-left: 682px;
+}
+
+.marketplace {
+  display: flex;
+}
+
+.marketplace-box {
+  background-image: url(/img/Mask\ Group\ \(2\)\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 422px;
+  height: 417px;
+  margin-left: 108px;
+  margin-top: 89px;
+}
+
+.marketplace-box__1 {
+  background-image: url(/img/Mask\ Group\ \(1\)\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 422px;
+  height: 417px;
+  margin-left: 108px;
+  margin-top: 89px;
+}
+
+.offer-marketplace {
+  font-family: "Mulish";
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-left: 32px;
+  margin-top: 24px;
+}
+
+.offer-app {
+  font-family: "Mulish";
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-top: 4px;
+  margin-left: 32px;
+}
+
+.intersted-section {
+  height: 1504px;
+  width: 1200px;
+  background: #5a98d0;
+  border-radius: 200px 0px 0px 0px;
+  margin-top: 192px;
+}
+
+.intersted-box {
+  display: flex;
+  padding-top: 96px;
+  margin-left: 213px;
+}
+
+.client-title {
+  width: 200px;
+  height: 92px;
+  font-family: "Mulish";
+  font-size: 30px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.ipsum-paragraph {
+  font-family: "Mulish";
+  width: 540px;
+  height: 80px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-left: 97px;
+}
+
+.site-intersted {
+  display: flex;
+  gap: 42px;
+  margin-left: 250px;
+  margin-top: -164px;
+}
+.site-intersted a {
+  padding: 0px 10px;
+  white-space: nowrap;
+  width: 147px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.site-intersted,
+.sit__2 {
+  margin-top: 92px;
+}
+
+.intersted-section__site--2 {
+  width: 1104px;
+  height: 869px;
+  background: #316099;
+  border-radius: 0px 200px 0px 0px;
+  margin-top: 166px;
+}
+
+.woek--box {
+  display: flex;
+}
+
+.woek-title {
+  width: 276px;
+  height: 92px;
+  font-family: "Mulish";
+  font-size: 30px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-left: 213px;
+  margin-top: 91px;
+}
+
+.woek-paragraph {
+  font-family: "Mulish";
+  width: 460px;
+  height: 80px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-left: 213px;
+  margin-top: 32px;
+}
+
+.ad-minim {
+  margin-left: 70px;
+  margin-top: 165px;
+}
+
+.line-dot {
+  border: 1px solid #e5e5e5;
+  width: 935px;
+  height: 0px;
+  display: inline-block;
+  margin-top: 96px;
+}
+
+.fot-navbar {
+  display: flex;
+  margin-top: 97px;
+  margin-left: 180px;
+}
+.fot-navbar ul {
+  display: flex;
+  list-style-type: none;
+  gap: 146px;
+}
+.fot-navbar a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.logo-afrian {
+  margin-left: 100px;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
+.site-logo {
+  display: flex;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin: 24px 0px;
+}
+
+.logo-paragraph {
+  width: 240px;
+  height: 48px;
+  font-family: "Mulish";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-left: 16px;
+}
+
+.fot-logo--box {
+  margin-left: 180px;
+  margin-top: 33px;
+}
+
+.reserved {
+  margin-top: 64px;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.about-box {
+  display: flex;
+}
+
+.follow-logo {
+  margin-left: 63px;
+}
+
+.site-about {
+  margin-left: 90px;
+  margin-top: 32px;
+}
+.site-about a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}/*# sourceMappingURL=main.css.map */

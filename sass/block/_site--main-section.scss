@@ -1,0 +1,50 @@
+.site--main-section {
+    display: flex;
+    height: 700px;
+    background: linear-gradient(0deg, #e7eff7 0.09%, rgba(255, 255, 255, 0) 31%);
+    // opacity: 0.2;
+}
+
+.automation-title {
+    font-size: 45px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    width: 480px;
+    height: 148px;
+    margin-top: 189px;
+    margin-left: 212px;
+}
+
+.automation-paragraph {
+    color: #1F3F68;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+    width: 425px;
+    height: 82px;
+    margin-left: 212px;
+    margin-top: 32px;
+}
+
+.automation-project {
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 212px;
+    margin-top: 71px;
+    display: inline-block;
+}
+
+.automation-img {
+    width: 530px;
+    height: 480px;
+    margin-top: 180px;
+    margin-left: -40px;
+}
